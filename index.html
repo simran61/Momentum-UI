@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header show_flex">
+        <span>Links</span>
+        <div class="header_info show_flex">
+            <div class="single_info">
+                <span class="fs_md show_flex">3d</span>
+                <span class="fs_sm">Meetings</span>
+            </div>
+            <div class="single_info">
+                <span class="fs_md show_flex">6</span>
+                <span class="fs_sm">Rain</span>
+            </div>
+            <div class="single_info">
+                <span class="fs_md show_flex">8pm</span>
+                <span class="fs_sm">London</span>
+            </div>
+            <div class="single_info show_flex">
+                <span class="fs_md">
+                    <ion-icon name="sunny-outline" class="header_icon"></ion-icon>64<sup class="fs_sm">0</sup>
+                </span>
+                <span class="fs_sm">Seattle</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <h1 class="fs_xxl time">25:00</h1>
+        <h1 class="time_tagline">Time to focus</h1>
+        <div class="todo_main">
+            <p>TODAY</p>
+            <p class="fs_md align_center">
+                <ion-icon name="square-outline" class="checkbox_icon"></ion-icon>Prepare for a quaterly meeting<ion-icon
+                    name="close-sharp" class="checkbox_icon"></ion-icon>
+            </p>
+        </div>
+    </div>
+
+    <div class="footer show_flex">
+        <p>Seattle, London</p>
+        <p>"Do or do not, There is no try."</p>
+        <div class="footer_right show_flex">
+            <span>Notes</span>
+            <span>Todo</span>
+        </div>
+    </div>
+
+    <div class="todo_box show_flex">
+        <h3>Today<ion-icon name="chevron-down-sharp" class="checkbox_icon"></ion-icon>
+        </h3>
+        <div class="todo_item_list">
+            <input type="checkbox" id="todo_item1" name="vehicle1" value="todo">
+            <label for="todo_item1">Prepare for a quaterly meeting</label>
+            <br>
+            <input type="checkbox" id="todo_item1" name="vehicle1" value="todo">
+            <label for="todo_item1">Zoom call with aman</label>
+            <br>
+            <input type="checkbox" id="todo_item1" name="vehicle1" value="todo">
+            <label for="todo_item1">Finish blog post draft</label>
+            <br>
+            <input type="checkbox" id="todo_item1" name="vehicle1" value="todo">
+            <label for="todo_item1">Order new monitor</label>
+            <br>
+            <input type="checkbox" id="todo_item1" name="vehicle1" value="todo">
+            <label for="todo_item1">Grocery shop</label>
+        </div>
+        <p class="grey_txt">New Todo</p>
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
